@@ -45,7 +45,8 @@ CREATE TABLE categories (
 
 
 --
--- Name: customer_customer_demo; Type: TABLE; Schema: public; Owner: -; Tablespace: 
+-- Name: customer_customer_demo; Type: TABLE; Schema: public; Owner: -;
+--Tablespace:
 --
 
 CREATE TABLE customer_customer_demo (
@@ -55,7 +56,8 @@ CREATE TABLE customer_customer_demo (
 
 
 --
--- Name: customer_demographics; Type: TABLE; Schema: public; Owner: -; Tablespace: 
+-- Name: customer_demographics; Type: TABLE; Schema: public; Owner: -;
+--Tablespace:
 --
 
 CREATE TABLE customer_demographics (
@@ -110,7 +112,8 @@ CREATE TABLE employees (
 
 
 --
--- Name: employee_territories; Type: TABLE; Schema: public; Owner: -; Tablespace: 
+-- Name: employee_territories; Type: TABLE; Schema: public; Owner: -;
+--Tablespace:
 --
 
 CREATE TABLE employee_territories (
@@ -254,13 +257,15 @@ INSERT INTO categories VALUES (8, 'Seafood', 'Seaweed and fish', '\x');
 
 
 --
--- Data for Name: customer_customer_demo; Type: TABLE DATA; Schema: public; Owner: -
+-- Data for Name: customer_customer_demo; Type: TABLE DATA; Schema: public;
+--Owner: -
 --
 
 
 
 --
--- Data for Name: customer_demographics; Type: TABLE DATA; Schema: public; Owner: -
+-- Data for Name: customer_demographics; Type: TABLE DATA; Schema: public;
+--Owner: -
 --
 
 
@@ -378,7 +383,8 @@ INSERT INTO employees VALUES (9, 'Dodsworth', 'Anne', 'Sales Representative', 'M
 
 
 --
--- Data for Name: employee_territories; Type: TABLE DATA; Schema: public; Owner: -
+-- Data for Name: employee_territories; Type: TABLE DATA; Schema: public;
+--Owner: -
 --
 
 INSERT INTO employee_territories VALUES (1, '06897');
@@ -3695,7 +3701,8 @@ ALTER TABLE ONLY categories
 
 
 --
--- Name: pk_customer_customer_demo; Type: CONSTRAINT; Schema: public; Owner: -; Tablespace: 
+-- Name: pk_customer_customer_demo; Type: CONSTRAINT; Schema: public; Owner: -;
+-- Tablespace:
 --
 
 ALTER TABLE ONLY customer_customer_demo
@@ -3703,7 +3710,8 @@ ALTER TABLE ONLY customer_customer_demo
 
 
 --
--- Name: pk_customer_demographics; Type: CONSTRAINT; Schema: public; Owner: -; Tablespace: 
+-- Name: pk_customer_demographics; Type: CONSTRAINT; Schema: public;
+--Owner: -; Tablespace:
 --
 
 ALTER TABLE ONLY customer_demographics
@@ -3727,7 +3735,8 @@ ALTER TABLE ONLY employees
 
 
 --
--- Name: pk_employee_territories; Type: CONSTRAINT; Schema: public; Owner: -; Tablespace: 
+-- Name: pk_employee_territories; Type: CONSTRAINT; Schema: public; Owner: -;
+--Tablespace:
 --
 
 ALTER TABLE ONLY employee_territories
@@ -3735,7 +3744,8 @@ ALTER TABLE ONLY employee_territories
 
 
 --
--- Name: pk_order_details; Type: CONSTRAINT; Schema: public; Owner: -; Tablespace: 
+-- Name: pk_order_details; Type: CONSTRAINT; Schema: public; Owner: -;
+--Tablespace:
 --
 
 ALTER TABLE ONLY order_details
@@ -3863,7 +3873,8 @@ ALTER TABLE ONLY territories
 
 
 --
--- Name: fk_employee_territories_territories; Type: Constraint; Schema: -; Owner: -
+-- Name: fk_employee_territories_territories; Type: Constraint; Schema: -;
+--Owner: -
 --
 
 ALTER TABLE ONLY employee_territories
@@ -3871,7 +3882,8 @@ ALTER TABLE ONLY employee_territories
 
 
 --
--- Name: fk_employee_territories_employees; Type: Constraint; Schema: -; Owner: -
+-- Name: fk_employee_territories_employees; Type: Constraint; Schema: -;
+--Owner: -
 --
 
 ALTER TABLE ONLY employee_territories
@@ -3879,7 +3891,8 @@ ALTER TABLE ONLY employee_territories
 
 
 --
--- Name: fk_customer_customer_demo_customer_demographics; Type: Constraint; Schema: -; Owner: -
+-- Name: fk_customer_customer_demo_customer_demographics; Type: Constraint;
+--Schema: -; Owner: -
 --
 
 ALTER TABLE ONLY customer_customer_demo
@@ -3887,7 +3900,8 @@ ALTER TABLE ONLY customer_customer_demo
 
 
 --
--- Name: fk_customer_customer_demo_customers; Type: Constraint; Schema: -; Owner: -
+-- Name: fk_customer_customer_demo_customers; Type: Constraint; Schema: -;
+--Owner: -
 --
 
 ALTER TABLE ONLY customer_customer_demo
