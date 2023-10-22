@@ -21,8 +21,8 @@ CREATE TABLE employees   -- сотрудник
 CREATE TABLE orders    -- заказ
 (
     order_id int2 PRIMARY KEY,
-	cusmomer_id varchar(10) REFERENCES customers(customer_id),
+	customer_id varchar(10) REFERENCES customers(customer_id),
 	employee_id int2 REFERENCES employees(employee_id),
 	order_date date NOT NULL,
-	ship_sity varchar(20) NOT NULL
+	ship_city varchar(20) NOT NULL
 );
